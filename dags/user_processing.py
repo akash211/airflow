@@ -11,7 +11,7 @@ default_args = {"start_date": datetime(2020, 1, 1)}
 
 
 def _processing_user(ti):
-    users = None
+    users = ti.xcom_pull(task_id=['extracting_user'])
     if not len(users) or 'results' not in users[0]:
         raise ValueError('User is empty')
     user = users[0]['results'][0]

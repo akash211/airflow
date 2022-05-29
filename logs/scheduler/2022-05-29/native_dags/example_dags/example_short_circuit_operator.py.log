@@ -7446,3 +7446,31 @@
 [2022-05-29 12:38:41,674] {logging_mixin.py:115} INFO - [2022-05-29 12:38:41,674] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-05-29 12:38:41,686] {logging_mixin.py:115} INFO - [2022-05-29 12:38:41,686] {dag.py:2923} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-05-28T12:38:41.686561+00:00, run_after=2022-05-29T12:38:41.686561+00:00
 [2022-05-29 12:38:41,699] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.046 seconds
+[2022-05-29 12:39:16,395] {processor.py:153} INFO - Started process (PID=89073) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:39:16,396] {processor.py:641} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-05-29 12:39:16,396] {logging_mixin.py:115} INFO - [2022-05-29 12:39:16,396] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:39:16,404] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:39:16,417] {logging_mixin.py:115} INFO - [2022-05-29 12:39:16,417] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-29 12:39:16,429] {logging_mixin.py:115} INFO - [2022-05-29 12:39:16,429] {dag.py:2923} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-05-28T12:39:16.429164+00:00, run_after=2022-05-29T12:39:16.429164+00:00
+[2022-05-29 12:39:16,442] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.049 seconds
+[2022-05-29 12:39:47,130] {processor.py:153} INFO - Started process (PID=89158) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:39:47,131] {processor.py:641} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-05-29 12:39:47,132] {logging_mixin.py:115} INFO - [2022-05-29 12:39:47,132] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:39:47,138] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:39:47,150] {logging_mixin.py:115} INFO - [2022-05-29 12:39:47,150] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-29 12:39:47,161] {logging_mixin.py:115} INFO - [2022-05-29 12:39:47,161] {dag.py:2923} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-05-28T12:39:47.161274+00:00, run_after=2022-05-29T12:39:47.161274+00:00
+[2022-05-29 12:39:47,172] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.044 seconds
+[2022-05-29 12:40:19,560] {processor.py:153} INFO - Started process (PID=89231) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:40:19,561] {processor.py:641} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-05-29 12:40:19,561] {logging_mixin.py:115} INFO - [2022-05-29 12:40:19,561] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:40:19,571] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:40:19,592] {logging_mixin.py:115} INFO - [2022-05-29 12:40:19,592] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-29 12:40:19,609] {logging_mixin.py:115} INFO - [2022-05-29 12:40:19,609] {dag.py:2923} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-05-28T12:40:19.608997+00:00, run_after=2022-05-29T12:40:19.608997+00:00
+[2022-05-29 12:40:19,623] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.066 seconds
+[2022-05-29 12:40:52,953] {processor.py:153} INFO - Started process (PID=89307) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:40:52,953] {processor.py:641} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py for tasks to queue
+[2022-05-29 12:40:52,954] {logging_mixin.py:115} INFO - [2022-05-29 12:40:52,954] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:40:52,960] {processor.py:651} INFO - DAG(s) dict_keys(['example_short_circuit_operator']) retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py
+[2022-05-29 12:40:52,973] {logging_mixin.py:115} INFO - [2022-05-29 12:40:52,973] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-29 12:40:52,984] {logging_mixin.py:115} INFO - [2022-05-29 12:40:52,984] {dag.py:2923} INFO - Setting next_dagrun for example_short_circuit_operator to 2022-05-28T12:40:52.984612+00:00, run_after=2022-05-29T12:40:52.984612+00:00
+[2022-05-29 12:40:53,003] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_short_circuit_operator.py took 0.053 seconds
