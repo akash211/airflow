@@ -12682,3 +12682,17 @@ NameError: name 'processed_user' is not defined
 [2022-05-29 18:52:55,348] {logging_mixin.py:115} INFO - [2022-05-29 18:52:55,348] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-05-29 18:52:55,360] {logging_mixin.py:115} INFO - [2022-05-29 18:52:55,360] {dag.py:2923} INFO - Setting next_dagrun for user_processing to 2022-05-29T00:00:00+00:00, run_after=2022-05-30T00:00:00+00:00
 [2022-05-29 18:52:55,379] {processor.py:161} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.318 seconds
+[2022-05-29 18:53:28,027] {processor.py:153} INFO - Started process (PID=121070) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-29 18:53:28,028] {processor.py:641} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-29 18:53:28,028] {logging_mixin.py:115} INFO - [2022-05-29 18:53:28,028] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-29 18:53:28,315] {processor.py:651} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-29 18:53:28,331] {logging_mixin.py:115} INFO - [2022-05-29 18:53:28,331] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-29 18:53:28,344] {logging_mixin.py:115} INFO - [2022-05-29 18:53:28,344] {dag.py:2923} INFO - Setting next_dagrun for user_processing to 2022-05-29T00:00:00+00:00, run_after=2022-05-30T00:00:00+00:00
+[2022-05-29 18:53:28,373] {processor.py:161} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.348 seconds
+[2022-05-29 18:54:02,684] {processor.py:153} INFO - Started process (PID=121193) to work on /home/airflow/airflow/dags/user_processing.py
+[2022-05-29 18:54:02,685] {processor.py:641} INFO - Processing file /home/airflow/airflow/dags/user_processing.py for tasks to queue
+[2022-05-29 18:54:02,685] {logging_mixin.py:115} INFO - [2022-05-29 18:54:02,685] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/airflow/dags/user_processing.py
+[2022-05-29 18:54:03,140] {processor.py:651} INFO - DAG(s) dict_keys(['user_processing']) retrieved from /home/airflow/airflow/dags/user_processing.py
+[2022-05-29 18:54:03,153] {logging_mixin.py:115} INFO - [2022-05-29 18:54:03,153] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-05-29 18:54:03,168] {logging_mixin.py:115} INFO - [2022-05-29 18:54:03,167] {dag.py:2923} INFO - Setting next_dagrun for user_processing to 2022-05-29T00:00:00+00:00, run_after=2022-05-30T00:00:00+00:00
+[2022-05-29 18:54:03,193] {processor.py:161} INFO - Processing /home/airflow/airflow/dags/user_processing.py took 0.512 seconds

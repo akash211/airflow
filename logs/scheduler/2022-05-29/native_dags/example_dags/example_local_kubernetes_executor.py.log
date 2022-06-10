@@ -18797,3 +18797,25 @@ ModuleNotFoundError: No module named 'kubernetes'
 [2022-05-29 18:52:51,476] {logging_mixin.py:115} INFO - [2022-05-29 18:52:51,476] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
 [2022-05-29 18:52:51,477] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
 [2022-05-29 18:52:51,485] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.030 seconds
+[2022-05-29 18:53:25,332] {processor.py:153} INFO - Started process (PID=121067) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-05-29 18:53:25,332] {processor.py:641} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-05-29 18:53:25,333] {logging_mixin.py:115} INFO - [2022-05-29 18:53:25,333] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-05-29 18:53:25,343] {logging_mixin.py:115} INFO - [2022-05-29 18:53:25,342] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-05-29 18:53:25,343] {logging_mixin.py:115} INFO - [2022-05-29 18:53:25,343] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-05-29 18:53:25,343] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-05-29 18:53:25,352] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.022 seconds
+[2022-05-29 18:53:59,606] {processor.py:153} INFO - Started process (PID=121179) to work on /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-05-29 18:53:59,607] {processor.py:641} INFO - Processing file /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2022-05-29 18:53:59,607] {logging_mixin.py:115} INFO - [2022-05-29 18:53:59,607] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-05-29 18:53:59,628] {logging_mixin.py:115} INFO - [2022-05-29 18:53:59,628] {example_local_kubernetes_executor.py:37} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 35, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2022-05-29 18:53:59,628] {logging_mixin.py:115} INFO - [2022-05-29 18:53:59,628] {example_local_kubernetes_executor.py:38} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2022-05-29 18:53:59,628] {processor.py:653} WARNING - No viable dags retrieved from /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2022-05-29 18:53:59,639] {processor.py:161} INFO - Processing /home/airflow/sandbox/lib/python3.8/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.036 seconds
