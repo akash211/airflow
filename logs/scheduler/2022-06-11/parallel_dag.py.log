@@ -3001,3 +3001,13 @@ airflow.exceptions.AirflowException: The subdag's dag_id should have the form '{
 [2022-06-11 17:44:53,318] {logging_mixin.py:115} INFO - [2022-06-11 17:44:53,318] {dag.py:2379} INFO - Sync 1 DAGs
 [2022-06-11 17:44:53,327] {logging_mixin.py:115} INFO - [2022-06-11 17:44:53,326] {dag.py:2923} INFO - Setting next_dagrun for parallel_dag.processing_tasks to None, run_after=None
 [2022-06-11 17:44:53,342] {processor.py:161} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.508 seconds
+[2022-06-11 17:46:25,983] {processor.py:153} INFO - Started process (PID=94342) to work on /home/airflow/airflow/dags/parallel_dag.py
+[2022-06-11 17:46:25,985] {processor.py:641} INFO - Processing file /home/airflow/airflow/dags/parallel_dag.py for tasks to queue
+[2022-06-11 17:46:25,986] {logging_mixin.py:115} INFO - [2022-06-11 17:46:25,986] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/airflow/dags/parallel_dag.py
+[2022-06-11 17:46:26,436] {processor.py:651} INFO - DAG(s) dict_keys(['parallel_dag.processing_tasks', 'parallel_dag']) retrieved from /home/airflow/airflow/dags/parallel_dag.py
+[2022-06-11 17:46:26,460] {logging_mixin.py:115} INFO - [2022-06-11 17:46:26,459] {dag.py:2379} INFO - Sync 2 DAGs
+[2022-06-11 17:46:26,491] {logging_mixin.py:115} INFO - [2022-06-11 17:46:26,491] {dag.py:2923} INFO - Setting next_dagrun for parallel_dag to 2022-06-11T00:00:00+00:00, run_after=2022-06-12T00:00:00+00:00
+[2022-06-11 17:46:26,492] {logging_mixin.py:115} INFO - [2022-06-11 17:46:26,491] {dag.py:2923} INFO - Setting next_dagrun for parallel_dag.processing_tasks to None, run_after=None
+[2022-06-11 17:46:26,503] {logging_mixin.py:115} INFO - [2022-06-11 17:46:26,503] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-06-11 17:46:26,515] {logging_mixin.py:115} INFO - [2022-06-11 17:46:26,515] {dag.py:2923} INFO - Setting next_dagrun for parallel_dag.processing_tasks to None, run_after=None
+[2022-06-11 17:46:26,531] {processor.py:161} INFO - Processing /home/airflow/airflow/dags/parallel_dag.py took 0.556 seconds
